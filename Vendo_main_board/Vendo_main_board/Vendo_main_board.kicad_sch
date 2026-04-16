@@ -1042,6 +1042,179 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:GNDPWR"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GNDPWR"
+				(at 0 -3.302 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GNDPWR_0_1"
+				(polyline
+					(pts
+						(xy -1.016 -1.27) (xy -1.27 -2.032) (xy -1.27 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -1.27) (xy -0.762 -2.032) (xy -0.762 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy -0.254 -2.032) (xy -0.254 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 -1.27) (xy 0.254 -2.032) (xy 0.254 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -1.27) (xy -1.016 -1.27) (xy -1.016 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -1.27) (xy 0.762 -2.032) (xy 0.762 -2.032) (xy 0.762 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GNDPWR_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "8_CHANNEL_RELAY"
 		(exclude_from_sim no)
@@ -1232,6 +1405,12 @@
 		(color 0 0 0 0)
 		(uuid "df432fc8-38c3-433d-ae32-d9beeb230835")
 	)
+	(junction
+		(at 302.827 226.1684)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f8c5c88d-2caa-4e63-9367-3bd9417e3525")
+	)
 	(wire
 		(pts
 			(xy 227.5828 63.2358) (xy 227.5828 68.294)
@@ -1331,6 +1510,16 @@
 			(type default)
 		)
 		(uuid "25b02557-2bda-49dd-877f-fa99ec25e658")
+	)
+	(wire
+		(pts
+			(xy 302.827 230.6876) (xy 302.827 226.1684)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "278bcbf9-2271-46ac-b386-a10432ec0e55")
 	)
 	(wire
 		(pts
@@ -1814,6 +2003,16 @@
 	)
 	(wire
 		(pts
+			(xy 300.3877 223.5894) (xy 339.8538 223.5894)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab34cc89-b095-4432-9538-a24ef9d1f37b")
+	)
+	(wire
+		(pts
 			(xy 247.3131 77.6973) (xy 256.799 77.6973)
 		)
 		(stroke
@@ -1851,6 +2050,16 @@
 			(type default)
 		)
 		(uuid "aea0a134-1a36-442c-8982-265726f74642")
+	)
+	(wire
+		(pts
+			(xy 302.827 226.1684) (xy 339.8538 226.1684)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0a0391a-3038-449f-b64a-8a70793a3fd7")
 	)
 	(wire
 		(pts
@@ -2064,6 +2273,16 @@
 	)
 	(wire
 		(pts
+			(xy 339.8538 226.1684) (xy 339.8538 226.1294)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1f3f827-d662-42b6-ace5-c9ce7d1b8a3d")
+	)
+	(wire
+		(pts
 			(xy 341.3816 135.5405) (xy 341.3816 160.8719)
 		)
 		(stroke
@@ -2141,6 +2360,16 @@
 			(type default)
 		)
 		(uuid "f7336ad1-af45-492c-be5a-afc9dbf276dc")
+	)
+	(wire
+		(pts
+			(xy 300.4001 226.1684) (xy 302.827 226.1684)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8408a57-363a-44f7-bcd5-17195c6a54f1")
 	)
 	(wire
 		(pts
@@ -3248,6 +3477,28 @@
 			)
 		)
 	)
+	(global_label "VIN+_REL_IN"
+		(shape input)
+		(at 300.3877 223.5894 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a24d7941-8a4b-4b44-95a0-543a015e8b86")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 285.4886 223.5894 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "DIN_DRY_6"
 		(shape input)
 		(at 300.498 83.181 0)
@@ -3754,6 +4005,28 @@
 			)
 		)
 	)
+	(global_label "VIN-_REL_IN"
+		(shape input)
+		(at 300.4001 226.1684 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f30bd303-95c2-489a-972f-d2888095c4a0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 285.501 226.1684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "TB_SDA"
 		(shape input)
 		(at 368.867 223.5894 0)
@@ -4129,6 +4402,72 @@
 			(project "Vendo_main_board"
 				(path "/ce68e045-3b24-4b1f-b4c3-20bce3f1de80"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 302.827 230.6876 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "395808c3-dfc5-4b61-ba08-19d9f538d3e7")
+		(property "Reference" "#PWR016"
+			(at 302.827 235.7676 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 302.7 234.4976 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 302.827 231.9576 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 302.827 231.9576 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 302.827 230.6876 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3a960c63-b8b6-4931-814f-27523f51c89c")
+		)
+		(instances
+			(project "Vendo_main_board"
+				(path "/ce68e045-3b24-4b1f-b4c3-20bce3f1de80"
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
