@@ -3290,10 +3290,6 @@
 		(color 0 0 0 0)
 		(uuid "ffe92c9b-59db-4d89-87e6-768f31d9abe0")
 	)
-	(no_connect
-		(at 51.6107 76.2403)
-		(uuid "91c16dbd-1409-46f7-8924-36606c41a352")
-	)
 	(wire
 		(pts
 			(xy 195.9377 83.389) (xy 184.4992 83.389)
@@ -6975,6 +6971,17 @@
 				(hide yes)
 			)
 		)
+	)
+	(hierarchical_label "SHIT_REG2"
+		(shape input)
+		(at 51.6107 76.2403 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "045f8128-a057-4991-919b-cede67923d71")
 	)
 	(hierarchical_label "DC_IN_2_B"
 		(shape input)
