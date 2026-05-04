@@ -1,0 +1,31 @@
+(footprint "Exposed pad" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (attr smd)
+  (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp dbdb959d-8696-4a07-9f9c-163a1cb34320)
+  )
+  (fp_text value "Exposed pad" (at 0 1 unlocked) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp c3f3cfcc-6ce8-4be7-9c2b-d7fd7e52f7de)
+  )
+  (fp_poly
+    (pts
+      (xy -2.338124 4.423748)
+      (xy -2.36 0.5)
+      (xy -5.11 -2.39)
+      (xy -5.02 -2.72)
+      (xy -0.32 -2.72)
+      (xy 1.61 -1.13)
+      (xy 1.63 -0.04)
+      (xy 1.61 3.31)
+      (xy 1.8 3.71)
+      (xy 4.42 5.83)
+      (xy 4.61 6.14)
+      (xy 4.52 6.35)
+      (xy -0.36 6.31)
+      (xy -2.34 5.12)
+    )
+
+    (stroke (width 0.2) (type solid)) (fill solid) (layer "F.Cu") (tstamp c1bec75d-a04b-461a-9f0f-ffdc2efc796d))
+)

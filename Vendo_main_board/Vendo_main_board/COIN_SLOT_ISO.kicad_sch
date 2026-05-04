@@ -7020,7 +7020,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C881308"
+		(property "LCSC" "C99782"
 			(at 324.309 194.773 0)
 			(effects
 				(font
@@ -7702,7 +7702,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C881308"
+		(property "LCSC" "C99782"
 			(at 221.3899 329.35 0)
 			(effects
 				(font
@@ -7992,7 +7992,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 431.4195 311.9454 0)
 			(effects
 				(font
@@ -8064,7 +8064,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C107088"
+		(property "LCSC" "C15850"
 			(at 430.4543 308.1354 0)
 			(effects
 				(font
@@ -8598,7 +8598,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C881308"
+		(property "LCSC" "C193336"
 			(at 154.1428 186.4222 0)
 			(effects
 				(font
@@ -8743,7 +8743,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 332.5772 308.9502 0)
 			(effects
 				(font
@@ -8815,7 +8815,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C107088"
+		(property "LCSC" "C15850"
 			(at 331.612 305.1402 0)
 			(effects
 				(font
@@ -9198,7 +9198,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C881308"
+		(property "LCSC" "C193336"
 			(at 446.2411 321.8357 0)
 			(effects
 				(font
@@ -9781,7 +9781,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C881308"
+		(property "LCSC" "C14675"
 			(at 244.2787 175.1345 0)
 			(effects
 				(font
@@ -9860,7 +9860,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 333.2844 176.2452 0)
 			(effects
 				(font
@@ -9932,7 +9932,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C107088"
+		(property "LCSC" "C15850"
 			(at 332.3192 172.4352 0)
 			(effects
 				(font
@@ -9982,7 +9982,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprint Library:SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR"
+		(property "Footprint" "footprints:SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR"
 			(at 339.268 304.1242 0)
 			(effects
 				(font
@@ -10337,7 +10337,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 139.3212 176.5319 0)
 			(effects
 				(font
@@ -10409,7 +10409,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C107088"
+		(property "LCSC" "C15850"
 			(at 138.356 172.7219 0)
 			(effects
 				(font
@@ -11077,7 +11077,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C881308"
+		(property "LCSC" "C193336"
 			(at 248.9309 186.9675 0)
 			(effects
 				(font
@@ -11418,7 +11418,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C881308"
+		(property "LCSC" "C99782"
 			(at 128.1636 326.3548 0)
 			(effects
 				(font
@@ -11604,7 +11604,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C881308"
+		(property "LCSC" "C99782"
 			(at 130.3458 195.0597 0)
 			(effects
 				(font
@@ -12358,7 +12358,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C881308"
+		(property "LCSC" "C193336"
 			(at 347.3988 318.8405 0)
 			(effects
 				(font
@@ -12779,7 +12779,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C881308"
+		(property "LCSC" "C99782"
 			(at 422.4441 330.4732 0)
 			(effects
 				(font
@@ -13202,7 +13202,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C881308"
+		(property "LCSC" "C14675"
 			(at 342.7466 307.0075 0)
 			(effects
 				(font
@@ -13467,7 +13467,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C881308"
+		(property "LCSC" "C99782"
 			(at 225.1339 195.605 0)
 			(effects
 				(font
@@ -13620,7 +13620,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprint Library:SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR"
+		(property "Footprint" "footprints:SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR"
 			(at 438.1103 307.1194 0)
 			(effects
 				(font
@@ -13811,7 +13811,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprint Library:SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR"
+		(property "Footprint" "footprints:SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR"
 			(at 439.608 174.9552 0)
 			(effects
 				(font
@@ -14272,7 +14272,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C881308"
+		(property "LCSC" "C193336"
 			(at 348.106 186.1355 0)
 			(effects
 				(font
@@ -14999,7 +14999,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C881308"
+		(property "LCSC" "C14675"
 			(at 441.5889 310.0027 0)
 			(effects
 				(font
@@ -15570,7 +15570,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C881308"
+		(property "LCSC" "C14675"
 			(at 343.4538 174.3025 0)
 			(effects
 				(font
@@ -15756,7 +15756,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C881308"
+		(property "LCSC" "C14675"
 			(at 149.4906 174.5892 0)
 			(effects
 				(font
@@ -15977,7 +15977,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 137.139 307.827 0)
 			(effects
 				(font
@@ -16049,7 +16049,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C107088"
+		(property "LCSC" "C15850"
 			(at 136.1738 304.017 0)
 			(effects
 				(font
@@ -16101,7 +16101,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 230.3653 310.8222 0)
 			(effects
 				(font
@@ -16173,7 +16173,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C107088"
+		(property "LCSC" "C15850"
 			(at 229.4001 307.0122 0)
 			(effects
 				(font
@@ -16464,7 +16464,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C881308"
+		(property "LCSC" "C14675"
 			(at 443.0866 177.8385 0)
 			(effects
 				(font
@@ -16861,7 +16861,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C881308"
+		(property "LCSC" "C193336"
 			(at 245.1869 320.7125 0)
 			(effects
 				(font
@@ -17459,7 +17459,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C881308"
+		(property "LCSC" "C99782"
 			(at 423.9418 198.309 0)
 			(effects
 				(font
@@ -17758,7 +17758,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprint Library:SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR"
+		(property "Footprint" "footprints:SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR"
 			(at 143.8298 303.001 0)
 			(effects
 				(font
@@ -18219,7 +18219,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C881308"
+		(property "LCSC" "C99782"
 			(at 323.6018 327.478 0)
 			(effects
 				(font
@@ -19077,7 +19077,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprint Library:SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR"
+		(property "Footprint" "footprints:SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR"
 			(at 146.012 171.7059 0)
 			(effects
 				(font
@@ -20359,7 +20359,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprint Library:SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR"
+		(property "Footprint" "footprints:SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR"
 			(at 237.0561 305.9962 0)
 			(effects
 				(font
@@ -20694,7 +20694,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 432.9172 179.7812 0)
 			(effects
 				(font
@@ -20766,7 +20766,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C107088"
+		(property "LCSC" "C15850"
 			(at 431.952 175.9712 0)
 			(effects
 				(font
@@ -22037,7 +22037,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C881308"
+		(property "LCSC" "C193336"
 			(at 151.9606 317.7173 0)
 			(effects
 				(font
@@ -22495,7 +22495,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C881308"
+		(property "LCSC" "C193336"
 			(at 447.7388 189.6715 0)
 			(effects
 				(font
@@ -22681,7 +22681,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C881308"
+		(property "LCSC" "C14675"
 			(at 147.3084 305.8843 0)
 			(effects
 				(font
@@ -23371,7 +23371,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprint Library:SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR"
+		(property "Footprint" "footprints:SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR"
 			(at 339.9752 171.4192 0)
 			(effects
 				(font
@@ -23629,7 +23629,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprint Library:SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR"
+		(property "Footprint" "footprints:SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR"
 			(at 240.8001 172.2512 0)
 			(effects
 				(font
@@ -23929,7 +23929,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C881308"
+		(property "LCSC" "C14675"
 			(at 240.5347 308.8795 0)
 			(effects
 				(font
@@ -24154,7 +24154,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 234.1093 177.0772 0)
 			(effects
 				(font
@@ -24226,7 +24226,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C107088"
+		(property "LCSC" "C15850"
 			(at 233.1441 173.2672 0)
 			(effects
 				(font

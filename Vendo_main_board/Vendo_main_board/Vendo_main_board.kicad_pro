@@ -479,7 +479,9 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "InnovKits"
+    ],
     "pinned_symbol_libs": []
   },
   "meta": {
@@ -621,6 +623,126 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "EVAL REFERENCE",
+          "name": "EVAL REFERENCE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC Part Name",
+          "name": "LCSC Part Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer Part",
+          "name": "Manufacturer Part",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer Product Number",
+          "name": "Manufacturer Product Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer Product Number ",
+          "name": "Manufacturer Product Number ",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Name",
+          "name": "Manufacturer_Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Part_Number",
+          "name": "Manufacturer_Part_Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Order  Status",
+          "name": "Order  Status",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Order Link",
+          "name": "Order Link",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Parts Needed",
+          "name": "Parts Needed",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Price",
+          "name": "Price",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Purchase-URL",
+          "name": "Purchase-URL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "QTY.STOCK-ONHAND",
+          "name": "QTY.STOCK-ONHAND",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Eval Reference",
+          "name": "Eval Reference",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "BOX",
+          "name": "BOX",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Type",
+          "name": "Sim.Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Supplier",
+          "name": "Supplier",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Supplier Part",
+          "name": "Supplier Part",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Delivery Status",
+          "name": "Delivery Status",
           "show": false
         }
       ],
