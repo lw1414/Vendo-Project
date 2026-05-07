@@ -482,7 +482,9 @@
     "pinned_footprint_libs": [
       "InnovKits"
     ],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "Vendo_symbol"
+    ]
   },
   "meta": {
     "filename": "Vendo_main_board.kicad_pro",

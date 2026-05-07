@@ -1405,7 +1405,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0315458a-0f61-47ed-9a93-9294eaeaf737")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR016"
 			(at 77.7971 52.317 0)
 			(effects
 				(font
@@ -1455,7 +1455,7 @@
 		(instances
 			(project "Vendo_main_board"
 				(path "/ce68e045-3b24-4b1f-b4c3-20bce3f1de80/1a00dd87-25a6-456f-88e0-9677adfda096"
-					(reference "#PWR08")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -1470,7 +1470,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "05716f7e-5ea8-4fae-8c11-3447f16b509d")
-		(property "Reference" "C2"
+		(property "Reference" "C9"
 			(at 68.3745 51.0498 0)
 			(effects
 				(font
@@ -1560,7 +1560,7 @@
 		(instances
 			(project "Vendo_main_board"
 				(path "/ce68e045-3b24-4b1f-b4c3-20bce3f1de80/1a00dd87-25a6-456f-88e0-9677adfda096"
-					(reference "C2")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -1576,7 +1576,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "05d7af43-4afc-44cc-bb26-83d32cb8fb75")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR021"
 			(at 124.7871 65.017 0)
 			(effects
 				(font
@@ -1626,7 +1626,7 @@
 		(instances
 			(project "Vendo_main_board"
 				(path "/ce68e045-3b24-4b1f-b4c3-20bce3f1de80/1a00dd87-25a6-456f-88e0-9677adfda096"
-					(reference "#PWR015")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -1642,7 +1642,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2e08e97c-187b-4bf4-bf17-d7df7c9e5897")
-		(property "Reference" "#PWR0109"
+		(property "Reference" "#PWR018"
 			(at 80.7987 79.0724 0)
 			(effects
 				(font
@@ -1692,7 +1692,7 @@
 		(instances
 			(project "Vendo_main_board"
 				(path "/ce68e045-3b24-4b1f-b4c3-20bce3f1de80/1a00dd87-25a6-456f-88e0-9677adfda096"
-					(reference "#PWR0109")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -1707,7 +1707,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "375b7e33-5239-4f1f-800a-e2eb55c4c177")
-		(property "Reference" "C1"
+		(property "Reference" "C8"
 			(at 65.229 56.2727 0)
 			(effects
 				(font
@@ -1808,7 +1808,7 @@
 		(instances
 			(project "Vendo_main_board"
 				(path "/ce68e045-3b24-4b1f-b4c3-20bce3f1de80/1a00dd87-25a6-456f-88e0-9677adfda096"
-					(reference "C1")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -1824,7 +1824,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c57ed74-8951-48fc-86b5-08b646aa13c5")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR017"
 			(at 77.7971 63.747 0)
 			(effects
 				(font
@@ -1874,7 +1874,7 @@
 		(instances
 			(project "Vendo_main_board"
 				(path "/ce68e045-3b24-4b1f-b4c3-20bce3f1de80/1a00dd87-25a6-456f-88e0-9677adfda096"
-					(reference "#PWR09")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -1890,7 +1890,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c4e6812-d9a7-4492-a031-d7ab768b4683")
-		(property "Reference" "U1"
+		(property "Reference" "U2"
 			(at 100.6571 42.157 0)
 			(effects
 				(font
@@ -1995,7 +1995,7 @@
 		(instances
 			(project "Vendo_main_board"
 				(path "/ce68e045-3b24-4b1f-b4c3-20bce3f1de80/1a00dd87-25a6-456f-88e0-9677adfda096"
-					(reference "U1")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -2011,7 +2011,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8c766bc2-c7e0-42cf-bdbb-c855ce356c3b")
-		(property "Reference" "C5"
+		(property "Reference" "C11"
 			(at 133.0421 55.492 0)
 			(effects
 				(font
@@ -2110,7 +2110,7 @@
 		(instances
 			(project "Vendo_main_board"
 				(path "/ce68e045-3b24-4b1f-b4c3-20bce3f1de80/1a00dd87-25a6-456f-88e0-9677adfda096"
-					(reference "C5")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -2125,7 +2125,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "99bd8f21-5d22-4357-8dd8-22f184ab3bac")
-		(property "Reference" "C4"
+		(property "Reference" "C10"
 			(at 125.2951 51.555 0)
 			(effects
 				(font
@@ -2215,7 +2215,7 @@
 		(instances
 			(project "Vendo_main_board"
 				(path "/ce68e045-3b24-4b1f-b4c3-20bce3f1de80/1a00dd87-25a6-456f-88e0-9677adfda096"
-					(reference "C4")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -2230,7 +2230,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ae2de9ca-2aa7-4b31-b941-55f78a546955")
-		(property "Reference" "#PWR0110"
+		(property "Reference" "#PWR019"
 			(at 89.7832 81.7083 0)
 			(effects
 				(font
@@ -2281,7 +2281,7 @@
 		(instances
 			(project "Vendo_main_board"
 				(path "/ce68e045-3b24-4b1f-b4c3-20bce3f1de80/1a00dd87-25a6-456f-88e0-9677adfda096"
-					(reference "#PWR0110")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -2297,7 +2297,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb46e5a6-bf31-43d8-93a3-03c6bbbb95eb")
-		(property "Reference" "#PWR0111"
+		(property "Reference" "#PWR023"
 			(at 143.9111 81.7083 0)
 			(effects
 				(font
@@ -2348,7 +2348,7 @@
 		(instances
 			(project "Vendo_main_board"
 				(path "/ce68e045-3b24-4b1f-b4c3-20bce3f1de80/1a00dd87-25a6-456f-88e0-9677adfda096"
-					(reference "#PWR0111")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -2364,7 +2364,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bdfd1435-7086-4e84-b345-9db4221beff9")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR020"
 			(at 124.7871 52.317 0)
 			(effects
 				(font
@@ -2414,7 +2414,7 @@
 		(instances
 			(project "Vendo_main_board"
 				(path "/ce68e045-3b24-4b1f-b4c3-20bce3f1de80/1a00dd87-25a6-456f-88e0-9677adfda096"
-					(reference "#PWR014")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -2430,7 +2430,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f4b7cf7f-af48-4198-b09e-498fd073f62c")
-		(property "Reference" "#PWR0113"
+		(property "Reference" "#PWR022"
 			(at 133.6566 79.0724 0)
 			(effects
 				(font
@@ -2481,7 +2481,7 @@
 		(instances
 			(project "Vendo_main_board"
 				(path "/ce68e045-3b24-4b1f-b4c3-20bce3f1de80/1a00dd87-25a6-456f-88e0-9677adfda096"
-					(reference "#PWR0113")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)

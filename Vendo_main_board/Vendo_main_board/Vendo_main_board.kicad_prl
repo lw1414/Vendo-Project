@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 2,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -32,7 +32,6 @@
       "vias",
       "footprint_text",
       "footprint_anchors",
-      "ratsnest",
       "grid",
       "footprints_front",
       "footprints_back",
@@ -59,7 +58,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "HeatIndex.kicad_prl",
+    "filename": "Vendo_main_board.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
@@ -92,18 +91,18 @@
       11
     ],
     "col_widths": [
-      222,
-      207,
-      136,
-      92,
-      136,
-      136,
-      136,
-      98,
-      136,
-      136,
-      136,
-      136
+      178,
+      166,
+      109,
+      74,
+      109,
+      109,
+      109,
+      78,
+      109,
+      109,
+      109,
+      109
     ],
     "custom_group_rules": [],
     "expanded_rows": [],

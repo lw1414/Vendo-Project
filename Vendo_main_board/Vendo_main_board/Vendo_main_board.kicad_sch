@@ -1429,6 +1429,30 @@
 		(color 0 0 0 0)
 		(uuid "f8c5c88d-2caa-4e63-9367-3bd9417e3525")
 	)
+	(no_connect
+		(at 339.8538 221.0494)
+		(uuid "06a3ca8e-4871-4aa2-a0b4-d5bfe2e256cf")
+	)
+	(no_connect
+		(at 339.8538 215.9694)
+		(uuid "17f0af09-0538-46fa-af84-97d6680f7cb2")
+	)
+	(no_connect
+		(at 339.8538 218.5094)
+		(uuid "44d4bf5b-720a-4c49-a20e-51c77ab40cac")
+	)
+	(no_connect
+		(at 339.8538 213.4294)
+		(uuid "6ee75128-24a7-45da-b081-ebf8206ca02f")
+	)
+	(no_connect
+		(at 368.867 213.4294)
+		(uuid "725e3336-0101-481f-b9b9-f0967edb33d5")
+	)
+	(no_connect
+		(at 368.867 215.9694)
+		(uuid "bc5eb11e-10a1-4aad-9f91-53008ec98422")
+	)
 	(wire
 		(pts
 			(xy 227.5828 63.2358) (xy 227.5828 68.294)
@@ -4304,7 +4328,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-12-5.08_1x12_P5.08mm_Horizontal"
 			(at 344.9338 215.9694 0)
 			(effects
 				(font
@@ -4386,7 +4410,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1df90326-a93c-4a4b-a57e-e282fb336db6")
-		(property "Reference" "#PWR0101"
+		(property "Reference" "#PWR02"
 			(at 365.057 228.6694 0)
 			(effects
 				(font
@@ -4437,7 +4461,7 @@
 		(instances
 			(project "Vendo_main_board"
 				(path "/ce68e045-3b24-4b1f-b4c3-20bce3f1de80"
-					(reference "#PWR0101")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -4454,7 +4478,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "25a9261d-bfba-44ac-bb9a-ce7020e74572")
-		(property "Reference" "J3"
+		(property "Reference" "J4"
 			(at 361.448 185.2571 0)
 			(effects
 				(font
@@ -4473,7 +4497,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-12-5.08_1x12_P5.08mm_Horizontal"
 			(at 363.8031 185.2572 0)
 			(effects
 				(font
@@ -4539,7 +4563,7 @@
 		(instances
 			(project "Vendo_main_board"
 				(path "/ce68e045-3b24-4b1f-b4c3-20bce3f1de80"
-					(reference "J3")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -4555,7 +4579,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "395808c3-dfc5-4b61-ba08-19d9f538d3e7")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR01"
 			(at 302.827 235.7676 0)
 			(effects
 				(font
@@ -4605,7 +4629,7 @@
 		(instances
 			(project "Vendo_main_board"
 				(path "/ce68e045-3b24-4b1f-b4c3-20bce3f1de80"
-					(reference "#PWR016")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -4640,7 +4664,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-12-5.08_1x12_P5.08mm_Horizontal"
 			(at 344.9177 185.2572 0)
 			(effects
 				(font
@@ -4740,7 +4764,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
 			(at 15.71 280.8873 0)
 			(effects
 				(font
@@ -4831,7 +4855,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
 			(at 71.6183 281.3039 0)
 			(effects
 				(font
@@ -4904,7 +4928,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b4b2ed69-4860-4c95-8b40-50c7f0f3ba08")
-		(property "Reference" "H3"
+		(property "Reference" "H2"
 			(at 37.8768 279.7918 0)
 			(effects
 				(font
@@ -4922,7 +4946,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
 			(at 34.3065 281.0619 0)
 			(effects
 				(font
@@ -4931,7 +4955,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "MountingHole:MountingHole_3.2mm_M3"
 			(at 34.3065 281.0619 0)
 			(effects
 				(font
@@ -4979,7 +5003,7 @@
 		(instances
 			(project "PLC Arduino"
 				(path "/ce68e045-3b24-4b1f-b4c3-20bce3f1de80"
-					(reference "H3")
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -4996,7 +5020,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be2e636c-d037-4ac3-8d18-843c96d27581")
-		(property "Reference" "J4"
+		(property "Reference" "J3"
 			(at 361.4319 215.9693 0)
 			(effects
 				(font
@@ -5015,7 +5039,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-12-5.08_1x12_P5.08mm_Horizontal"
 			(at 363.787 215.9694 0)
 			(effects
 				(font
@@ -5081,7 +5105,7 @@
 		(instances
 			(project "Vendo_main_board"
 				(path "/ce68e045-3b24-4b1f-b4c3-20bce3f1de80"
-					(reference "J4")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -5097,7 +5121,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c02b1d14-ef92-41f1-905e-a8a4bde731e4")
-		(property "Reference" "H2"
+		(property "Reference" "H3"
 			(at 56.6476 279.523 0)
 			(effects
 				(font
@@ -5115,7 +5139,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
 			(at 53.0773 280.7931 0)
 			(effects
 				(font
@@ -5172,7 +5196,7 @@
 		(instances
 			(project "PLC Arduino"
 				(path "/ce68e045-3b24-4b1f-b4c3-20bce3f1de80"
-					(reference "H2")
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -5188,7 +5212,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f1208d72-3118-4792-92c9-d49fb2685833")
-		(property "Reference" "#PWR0105"
+		(property "Reference" "#PWR03"
 			(at 371.0657 237.5594 0)
 			(effects
 				(font
@@ -5238,7 +5262,7 @@
 		(instances
 			(project "Vendo_main_board"
 				(path "/ce68e045-3b24-4b1f-b4c3-20bce3f1de80"
-					(reference "#PWR0105")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
