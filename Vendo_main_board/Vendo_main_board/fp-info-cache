@@ -1,4 +1,4 @@
-25803461413046307
+25814132944966348
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -66787,6 +66787,13 @@ Exposedpad1
 1
 1
 InnovKits
+HC-49S_L11.4-W4.9-LS13.4
+
+
+0
+2
+2
+InnovKits
 INA219AIDCNR
 
 INA219AIDCNR 
@@ -66899,6 +66906,13 @@ connector JST XH vertical boss
 2
 2
 InnovKits
+LQFP-48_L7.0-W7.0-P0.50-LS9.0-BL
+
+
+0
+48
+48
+InnovKits
 LTC4015EUHF-PBF
 
 
@@ -66962,6 +66976,13 @@ NRS4018T2R2MDGJ
 2
 2
 InnovKits
+OSC-SMD_L3.2-W1.5
+
+
+0
+2
+2
+InnovKits
 OXETGLJANF-1.8432MHZ
 
 E3SB27E0X000ME 
@@ -66996,6 +67017,13 @@ RB068MM-40TR
 0
 2
 2
+InnovKits
+RELAY-TH_SLA-XXVDC-SL-C
+
+
+0
+6
+6
 InnovKits
 RELAY6_G5V-13 DC3_OMR
 
@@ -67045,6 +67073,20 @@ SOD123_DIO
 0
 2
 2
+InnovKits
+SOIC-16_L9.9-W3.9-P1.27-LS6.0-BL
+
+
+0
+16
+16
+InnovKits
+SOP-20_L12.8-W7.5-P1.27-LS10.4-BL
+
+
+0
+20
+20
 InnovKits
 SOP65P640X110-28N
 

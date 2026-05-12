@@ -5707,7 +5707,7 @@
 		)
 		(uuid "53192f72-a8c6-4d18-af2a-2ace91bb8a97")
 	)
-	(label "QA"
+	(label "3V3_EN"
 		(at 119.8905 195.0597 180)
 		(effects
 			(font
