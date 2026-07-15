@@ -14547,7 +14547,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type101_RT01603HBWC_1x03_P5.08mm_Horizontal"
+		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-3P_1x03_P2.54mm_Horizontal"
 			(at 481.3643 117.4685 0)
 			(effects
 				(font
@@ -14887,7 +14887,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type101_RT01604HBWC_1x04_P5.08mm_Horizontal"
+		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-4P_1x04_P2.54mm_Horizontal"
 			(at 336.9919 288.29 0)
 			(effects
 				(font
@@ -20001,7 +20001,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type101_RT01604HBWC_1x04_P5.08mm_Horizontal"
+		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-4P_1x04_P2.54mm_Horizontal"
 			(at 253.1719 289.56 0)
 			(effects
 				(font
