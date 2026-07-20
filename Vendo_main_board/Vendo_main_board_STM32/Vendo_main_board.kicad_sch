@@ -5500,8 +5500,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 6.858 0)
+			(property "Reference" "SW5"
+				(at 0 10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5509,14 +5509,15 @@
 				)
 			)
 			(property "Value" "SW_Slide_DPDT"
-				(at 0 -8.128 0)
+				(at 0 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "InnovKits:DPDT_PUSH"
 				(at 13.97 5.08 0)
 				(effects
 					(font
@@ -5535,6 +5536,87 @@
 				)
 			)
 			(property "Description" "Slide Switch, dual pole double throw"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "BOX" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Delivery Status" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Order  Status" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Order Link" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Parts Needed" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "QTY.STOCK-ONHAND" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Type" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -5709,7 +5791,7 @@
 							)
 						)
 					)
-					(number "6"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5745,7 +5827,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8270,7 +8352,7 @@
 		(uuid "483f4c1a-73a0-4107-ae5c-a1c88036294c")
 	)
 	(no_connect
-		(at 553.8057 214.63)
+		(at 552.2475 215.2135)
 		(uuid "4fa28f4a-d691-4997-9ed3-f05884e32419")
 	)
 	(no_connect
@@ -9115,7 +9197,7 @@
 	)
 	(wire
 		(pts
-			(xy 563.9657 214.63) (xy 565.2357 214.63)
+			(xy 562.4075 215.2135) (xy 563.6775 215.2135)
 		)
 		(stroke
 			(width 0)
@@ -9415,7 +9497,7 @@
 	)
 	(wire
 		(pts
-			(xy 563.9657 224.79) (xy 565.2357 224.79)
+			(xy 562.4075 225.3735) (xy 563.6775 225.3735)
 		)
 		(stroke
 			(width 0)
@@ -10015,7 +10097,7 @@
 	)
 	(wire
 		(pts
-			(xy 552.5357 224.79) (xy 553.8057 224.79)
+			(xy 550.9775 225.3735) (xy 552.2475 225.3735)
 		)
 		(stroke
 			(width 0)
@@ -10825,7 +10907,7 @@
 	)
 	(wire
 		(pts
-			(xy 552.5357 219.71) (xy 553.8057 219.71)
+			(xy 550.9775 220.2935) (xy 552.2475 220.2935)
 		)
 		(stroke
 			(width 0)
@@ -11625,7 +11707,7 @@
 	)
 	(wire
 		(pts
-			(xy 563.9657 219.71) (xy 565.2357 219.71)
+			(xy 562.4075 220.2935) (xy 563.6775 220.2935)
 		)
 		(stroke
 			(width 0)
@@ -12335,7 +12417,7 @@
 	)
 	(global_label "GND_OUT"
 		(shape output)
-		(at 552.5357 219.71 180)
+		(at 550.9775 220.2935 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12345,7 +12427,7 @@
 		)
 		(uuid "2ee21d5b-e4ee-40a8-bcb1-90e24ed2e381")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 543.3744 219.71 0)
+			(at 541.8162 220.2935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12489,7 +12571,7 @@
 	)
 	(global_label "RLY_NO"
 		(shape bidirectional)
-		(at 552.5357 224.79 180)
+		(at 550.9775 225.3735 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12499,7 +12581,7 @@
 		)
 		(uuid "4702ed39-fecf-4a0a-bc54-abfce69bf182")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 543.6465 224.79 0)
+			(at 542.0883 225.3735 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12577,7 +12659,7 @@
 	)
 	(global_label "RLY_COM"
 		(shape bidirectional)
-		(at 565.2357 224.79 0)
+		(at 563.6775 225.3735 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12587,7 +12669,7 @@
 		)
 		(uuid "572a5953-e536-4969-a491-a5e37a041e42")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 575.2376 224.79 0)
+			(at 573.6794 225.3735 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12775,7 +12857,7 @@
 	)
 	(global_label "GND_OUT"
 		(shape output)
-		(at 565.2357 214.63 0)
+		(at 563.6775 215.2135 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12785,7 +12867,7 @@
 		)
 		(uuid "8068ecec-c5a4-40a4-a8cf-5ad35ce4417b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 574.397 214.63 0)
+			(at 572.8388 215.2135 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31373,8 +31455,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Slide_DPDT")
-		(at 558.8857 219.71 0)
-		(mirror x)
+		(at 557.3275 220.2935 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -31382,7 +31463,7 @@
 		(dnp no)
 		(uuid "c62e19b0-6105-48da-ab38-1d8e38a35744")
 		(property "Reference" "SW5"
-			(at 558.8857 229.87 0)
+			(at 557.3275 210.1335 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31390,7 +31471,7 @@
 			)
 		)
 		(property "Value" "SW_Slide_DPDT"
-			(at 558.8857 227.33 0)
+			(at 557.3275 212.6735 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31399,7 +31480,7 @@
 			)
 		)
 		(property "Footprint" "InnovKits:DPDT_PUSH"
-			(at 572.8557 224.79 0)
+			(at 571.2975 215.2135 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31408,7 +31489,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 558.8857 219.71 0)
+			(at 557.3275 220.2935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31417,7 +31498,7 @@
 			)
 		)
 		(property "Description" "Slide Switch, dual pole double throw"
-			(at 558.8857 219.71 0)
+			(at 557.3275 220.2935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31426,7 +31507,7 @@
 			)
 		)
 		(property "BOX" ""
-			(at 558.8857 219.71 0)
+			(at 557.3275 220.2935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31435,7 +31516,7 @@
 			)
 		)
 		(property "Delivery Status" ""
-			(at 558.8857 219.71 0)
+			(at 557.3275 220.2935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31444,7 +31525,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 558.8857 219.71 0)
+			(at 557.3275 220.2935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31453,7 +31534,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 558.8857 219.71 0)
+			(at 557.3275 220.2935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31462,7 +31543,7 @@
 			)
 		)
 		(property "Order  Status" ""
-			(at 558.8857 219.71 0)
+			(at 557.3275 220.2935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31471,7 +31552,7 @@
 			)
 		)
 		(property "Order Link" ""
-			(at 558.8857 219.71 0)
+			(at 557.3275 220.2935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31480,7 +31561,7 @@
 			)
 		)
 		(property "Parts Needed" ""
-			(at 558.8857 219.71 0)
+			(at 557.3275 220.2935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31489,7 +31570,7 @@
 			)
 		)
 		(property "QTY.STOCK-ONHAND" ""
-			(at 558.8857 219.71 0)
+			(at 557.3275 220.2935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31498,7 +31579,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 558.8857 219.71 0)
+			(at 557.3275 220.2935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33482,8 +33563,7 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 565.2357 219.71 90)
-		(mirror x)
+		(at 563.6775 220.2935 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -33491,7 +33571,7 @@
 		(dnp no)
 		(uuid "d69a94ec-a3f7-41d0-b9e6-71adeeb5339e")
 		(property "Reference" "#PWR078"
-			(at 571.5857 219.71 0)
+			(at 570.0275 220.2935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33500,7 +33580,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 570.3157 219.71 0)
+			(at 568.7575 220.2935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33509,7 +33589,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 565.2357 219.71 0)
+			(at 563.6775 220.2935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33518,7 +33598,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 565.2357 219.71 0)
+			(at 563.6775 220.2935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33527,7 +33607,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 565.2357 219.71 0)
+			(at 563.6775 220.2935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
