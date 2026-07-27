@@ -15545,7 +15545,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H5mm"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS645"
 			(at 344.6119 232.41 0)
 			(effects
 				(font
@@ -20253,7 +20253,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H5mm"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS645"
 			(at 405.5719 299.72 0)
 			(effects
 				(font
@@ -34685,7 +34685,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H5mm"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS645"
 			(at 375.0919 299.72 0)
 			(effects
 				(font
@@ -36903,7 +36903,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H5mm"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS645"
 			(at 434.7819 299.72 0)
 			(effects
 				(font
