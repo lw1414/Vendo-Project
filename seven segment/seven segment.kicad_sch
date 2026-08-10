@@ -5,6 +5,255 @@
 	(uuid "f35e8fbd-20e2-4e8b-a22f-f96068be6e33")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:Conn_01x04_Socket"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x04_Socket"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x04, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x04_Socket_1_1"
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy -0.508 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -0.508 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -5.08) (xy -0.508 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 2.032)
+					(mid -0.5058 2.54)
+					(end 0 3.048)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -0.508)
+					(mid -0.5058 0)
+					(end 0 0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -3.048)
+					(mid -0.5058 -2.54)
+					(end 0 -2.032)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -5.588)
+					(mid -0.5058 -5.08)
+					(end 0 -4.572)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -268,7 +517,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Display_Character:CC56-12EWA"
+		(symbol "Display_Character:CA56-12SRWA"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -280,15 +529,15 @@
 					)
 				)
 			)
-			(property "Value" "CC56-12EWA"
-				(at 19.05 13.97 0)
+			(property "Value" "CA56-12SRWA"
+				(at 17.78 13.97 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "Display_7Segment:CA56-12EWA"
+			(property "Footprint" "Display_7Segment:CA56-12SRWA"
 				(at 0 -15.24 0)
 				(effects
 					(font
@@ -297,7 +546,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.kingbrightusa.com/images/catalog/SPEC/CA56-12EWA.pdf"
+			(property "Datasheet" "http://www.kingbrightusa.com/images/catalog/SPEC/CA56-12SRWA.pdf"
 				(at -10.922 0.762 0)
 				(effects
 					(font
@@ -306,7 +555,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "4 digit 7 segment high efficiency red LED, common cathode"
+			(property "Description" "4 digit 7 segment super bright red LED, common anode"
 				(at 0 0 0)
 				(effects
 					(font
@@ -324,7 +573,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "*CA56*12EWA*"
+			(property "ki_fp_filters" "*CA56*12SRWA*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -333,7 +582,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "CC56-12EWA_0_0"
+			(symbol "CA56-12SRWA_0_0"
 				(rectangle
 					(start -25.4 12.7)
 					(end 25.4 -12.7)
@@ -770,7 +1019,7 @@
 					)
 				)
 			)
-			(symbol "CC56-12EWA_0_1"
+			(symbol "CA56-12SRWA_0_1"
 				(circle
 					(center -13.716 -3.81)
 					(radius 0.3556)
@@ -794,7 +1043,7 @@
 					)
 				)
 			)
-			(symbol "CC56-12EWA_1_0"
+			(symbol "CA56-12SRWA_1_0"
 				(circle
 					(center 7.62 -4.064)
 					(radius 0.3556)
@@ -818,7 +1067,7 @@
 					)
 				)
 			)
-			(symbol "CC56-12EWA_1_1"
+			(symbol "CA56-12SRWA_1_1"
 				(pin input line
 					(at -27.94 7.62 0)
 					(length 2.54)
@@ -966,7 +1215,7 @@
 				(pin input line
 					(at 27.94 -2.54 180)
 					(length 2.54)
-					(name "CC1"
+					(name "CA1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -984,7 +1233,7 @@
 				(pin input line
 					(at 27.94 -5.08 180)
 					(length 2.54)
-					(name "CC2"
+					(name "CA2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1002,7 +1251,7 @@
 				(pin input line
 					(at 27.94 -7.62 180)
 					(length 2.54)
-					(name "CC3"
+					(name "CA3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1020,7 +1269,7 @@
 				(pin input line
 					(at 27.94 -10.16 180)
 					(length 2.54)
-					(name "CC4"
+					(name "CA4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1755,6 +2004,16 @@
 		)
 		(uuid 6b0c359c-4d8a-4c7f-a11c-0e62f40d8cd5)
 	)
+	(text "COMMON ANODE"
+		(exclude_from_sim no)
+		(at 221.0742 69.3874 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "09434f4d-d5a4-46ac-97c3-e345e77522d1")
+	)
 	(text "SEVEN_SEGMENT PORT(ANOTHER BOARD)\n"
 		(exclude_from_sim no)
 		(at 39.6379 32.5849 0)
@@ -1948,6 +2207,16 @@
 		)
 		(uuid "290685fb-bb55-41bb-83ab-f8f845b77e2c")
 	)
+	(label "DIO"
+		(at 67.6365 57.4382 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3d639019-8f45-41a3-9406-e75ccbf7f45f")
+	)
 	(label "GRID1"
 		(at 250.063 57.3538 0)
 		(effects
@@ -1957,6 +2226,16 @@
 			(justify left bottom)
 		)
 		(uuid "4dff1873-c09d-4dcb-b791-746d70838bfb")
+	)
+	(label "CLK"
+		(at 67.6365 54.8982 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "55c1573e-3b52-45d4-b11a-11cfb0d0489c")
 	)
 	(label "SEG5/KS5"
 		(at 116.0897 60.8744 180)
@@ -2186,7 +2465,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "000164da-3618-4a65-8149-e724f8d61993")
 		(property "Reference" "#PWR030"
 			(at 171.3363 45.8108 0)
@@ -2198,7 +2476,7 @@
 			)
 		)
 		(property "Value" "+3.3VA"
-			(at 171.3363 37.5558 0)
+			(at 171.2423 35.9626 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2358,7 +2636,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0315f508-cc4b-41ef-aaa1-12d6d8873227")
 		(property "Reference" "#PWR068"
 			(at 155.3223 46.4658 0)
@@ -2370,7 +2647,7 @@
 			)
 		)
 		(property "Value" "+3.3VA"
-			(at 155.3223 38.2108 0)
+			(at 155.1265 36.1628 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2610,6 +2887,146 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x04_Socket")
+		(at 62.5565 57.4382 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1c8eb844-ff63-4232-b990-d1a2022b8e47")
+		(property "Reference" "J1"
+			(at 58.7092 56.156 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x04_Socket"
+			(at 63.1915 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.5565 57.4382 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.5565 57.4382 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 62.5565 57.4382 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e05a355a-88f8-4379-bf72-e9b98acfaede")
+		)
+		(pin "3"
+			(uuid "fd84a61b-f8ad-43b7-a8e1-df234763a807")
+		)
+		(pin "1"
+			(uuid "35e05995-6566-4fec-956e-147827797083")
+		)
+		(pin "4"
+			(uuid "362f7b89-da3b-43cb-8396-c08b9ce1c53a")
+		)
+		(instances
+			(project ""
+				(path "/f35e8fbd-20e2-4e8b-a22f-f96068be6e33"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND1")
+		(at 67.6365 59.9782 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "39ad5e3c-1fc1-491d-a4bf-e97e488686a8")
+		(property "Reference" "#PWR01"
+			(at 67.6365 66.3282 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND1"
+			(at 67.6365 64.795 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.6365 59.9782 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.6365 59.9782 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 67.6365 59.9782 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7a760d77-da3e-47b9-9b97-6065f94a203a")
+		)
+		(instances
+			(project "seven segment"
+				(path "/f35e8fbd-20e2-4e8b-a22f-f96068be6e33"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND1")
 		(at 112.0101 48.1744 180)
 		(unit 1)
@@ -2742,33 +3159,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Display_Character:CC56-12EWA")
-		(at 222.123 54.8138 0)
+		(lib_id "power:+3.3V")
+		(at 67.6365 52.3582 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "623a9a67-5d64-4434-aa13-02a2646e1acb")
-		(property "Reference" "U2"
-			(at 222.123 36.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CC56-12EWA"
-			(at 222.123 39.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Display_7Segment:CA56-12EWA"
-			(at 222.123 70.0538 0)
+		(uuid "6b13c5e6-52fb-4252-b5a3-dd3eefcf80dd")
+		(property "Reference" "#PWR02"
+			(at 67.6365 56.1682 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2776,8 +3176,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.kingbrightusa.com/images/catalog/SPEC/CA56-12EWA.pdf"
-			(at 211.201 54.0518 0)
+		(property "Value" "+3.3VA"
+			(at 67.4407 45.8652 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.6365 52.3582 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2785,8 +3193,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "4 digit 7 segment high efficiency red LED, common cathode"
-			(at 222.123 54.8138 0)
+		(property "Datasheet" ""
+			(at 67.6365 52.3582 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2794,46 +3202,22 @@
 				(hide yes)
 			)
 		)
-		(pin "5"
-			(uuid "9e1948eb-36a7-4c06-b86a-b45b3e7be4e9")
-		)
-		(pin "3"
-			(uuid "1fab8827-cd82-477c-9cb4-5b6eb45bdc42")
-		)
-		(pin "11"
-			(uuid "1c054b05-3514-4112-976a-fd8a88504c88")
-		)
-		(pin "12"
-			(uuid "7a427bc1-3241-4b42-8f97-995b4e7cf37f")
-		)
-		(pin "10"
-			(uuid "abe832c4-7503-4e33-bbaa-5aa9f1948628")
-		)
-		(pin "2"
-			(uuid "cd23e930-420e-4004-b343-387e4648652e")
-		)
-		(pin "9"
-			(uuid "66b62e14-815c-4fa5-a1d5-ed7c9ecad192")
-		)
-		(pin "4"
-			(uuid "b4beb75c-5c61-4499-b711-93812b19a99d")
-		)
-		(pin "8"
-			(uuid "3c9aba93-34f5-477e-878c-84ea89d84cee")
-		)
-		(pin "7"
-			(uuid "7cbc92a5-8681-4db2-b9a9-212872288594")
+		(property "Description" ""
+			(at 67.6365 52.3582 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "1a2891b4-62dc-416e-80fe-f9a669b44abc")
-		)
-		(pin "6"
-			(uuid "c44d5469-836f-4c69-9a65-c6ad750f3eb1")
+			(uuid "665af7ea-46ce-47b0-8e83-4b6cbb8a2e88")
 		)
 		(instances
-			(project ""
+			(project "seven segment"
 				(path "/f35e8fbd-20e2-4e8b-a22f-f96068be6e33"
-					(reference "U2")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -3107,6 +3491,104 @@
 		)
 	)
 	(symbol
+		(lib_id "Display_Character:CA56-12SRWA")
+		(at 222.123 54.8138 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a9a8b121-07a2-4ca9-9ff8-de16474aa755")
+		(property "Reference" "U1"
+			(at 222.123 37.6795 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CA56-12SRWA"
+			(at 222.123 40.2195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Display_7Segment:CA56-12SRWA"
+			(at 222.123 70.0538 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.kingbrightusa.com/images/catalog/SPEC/CA56-12SRWA.pdf"
+			(at 211.201 54.0518 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 digit 7 segment super bright red LED, common anode"
+			(at 222.123 54.8138 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c6a5b13c-f4ea-4ad5-b4fc-0918d0c171ca")
+		)
+		(pin "4"
+			(uuid "39645a90-8407-4c14-8c25-ba285699306a")
+		)
+		(pin "12"
+			(uuid "3a889997-8110-4122-9008-22031fc121d4")
+		)
+		(pin "5"
+			(uuid "ba9b5bf4-4f14-47ea-8caa-265266427336")
+		)
+		(pin "7"
+			(uuid "04f10b87-6873-4984-8359-ee336d2f4969")
+		)
+		(pin "8"
+			(uuid "bc5e924d-1774-4fab-a355-e781e86b3111")
+		)
+		(pin "10"
+			(uuid "c4dec483-65ab-4daa-9c5d-322478fbfe62")
+		)
+		(pin "3"
+			(uuid "f50f893d-abbe-4b4a-a2c4-779240e1dede")
+		)
+		(pin "1"
+			(uuid "92835c22-3a22-4b09-80b8-3b021bc42fba")
+		)
+		(pin "11"
+			(uuid "42a951bc-b4ac-4cdb-aad4-8590285cfa20")
+		)
+		(pin "9"
+			(uuid "7823d782-5ad9-436d-ba37-a236d5adf270")
+		)
+		(pin "6"
+			(uuid "d5279401-26a9-4de2-969a-9a41c2747310")
+		)
+		(instances
+			(project ""
+				(path "/f35e8fbd-20e2-4e8b-a22f-f96068be6e33"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 159.7951 42.6558 0)
 		(unit 1)
@@ -3114,7 +3596,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c812825e-5145-4bbc-ab0b-363c90d75e44")
 		(property "Reference" "#PWR029"
 			(at 159.7951 46.4658 0)
@@ -3126,7 +3607,7 @@
 			)
 		)
 		(property "Value" "+3.3VA"
-			(at 159.7951 38.2108 0)
+			(at 159.7811 36.363 90)
 			(effects
 				(font
 					(size 1.27 1.27)

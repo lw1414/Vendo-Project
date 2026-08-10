@@ -534,7 +534,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "..\\..\\..\\..\\..\\Desktop\\Man\\BOM Csv\\Vendo_main_board_V2.csv",
+    "bom_export_filename": "..\\..\\..\\..\\..\\..\\Desktop\\Vendo_main_board_ESP32_V2.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -775,6 +775,12 @@
           "group_by": false,
           "label": "MPN",
           "name": "MPN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC ",
+          "name": "LCSC ",
           "show": false
         }
       ],
