@@ -2532,7 +2532,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "02f72287-0426-4cc0-8a59-a189afd701d0")
-		(property "Reference" "C28"
+		(property "Reference" "C2"
 			(at 167.2044 64.46 0)
 			(effects
 				(font
@@ -2622,7 +2622,7 @@
 		(instances
 			(project "seven segment"
 				(path "/f35e8fbd-20e2-4e8b-a22f-f96068be6e33"
-					(reference "C28")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -2702,7 +2702,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "108ba707-54a4-43bc-8f2e-7cd7523c66bc")
-		(property "Reference" "U8"
+		(property "Reference" "U2"
 			(at 131.3297 42.7062 0)
 			(effects
 				(font
@@ -2718,7 +2718,7 @@
 				)
 			)
 		)
-		(property "Footprint" "InnovKits:SOP-20_L12.8-W7.5-P1.27-LS10.4-BL"
+		(property "Footprint" "Footprint:SOP-20_L12.8-W7.5-P1.27-LS10.4-BL"
 			(at 131.3297 59.6044 0)
 			(effects
 				(font
@@ -2880,7 +2880,7 @@
 		(instances
 			(project "seven segment"
 				(path "/f35e8fbd-20e2-4e8b-a22f-f96068be6e33"
-					(reference "U8")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -2888,7 +2888,8 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Socket")
-		(at 62.5565 57.4382 180)
+		(at 62.5565 54.8982 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2896,7 +2897,7 @@
 		(dnp no)
 		(uuid "1c8eb844-ff63-4232-b990-d1a2022b8e47")
 		(property "Reference" "J1"
-			(at 58.7092 56.156 0)
+			(at 58.7092 56.1804 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2904,7 +2905,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04_Socket"
-			(at 63.1915 49.53 0)
+			(at 63.1915 62.8064 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2912,8 +2913,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 62.5565 57.4382 0)
+		(property "Footprint" "Connector_JST:JST_EH_B4B-EH-A_1x04_P2.50mm_Vertical"
+			(at 62.5565 54.8982 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2922,7 +2923,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 62.5565 57.4382 0)
+			(at 62.5565 54.8982 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2931,7 +2932,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 62.5565 57.4382 0)
+			(at 62.5565 54.8982 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3298,7 +3299,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8d2aea4b-a617-428a-bfce-14731c7f8af6")
-		(property "Reference" "R28"
+		(property "Reference" "R2"
 			(at 157.5487 48.7648 90)
 			(effects
 				(font
@@ -3388,7 +3389,7 @@
 		(instances
 			(project "seven segment"
 				(path "/f35e8fbd-20e2-4e8b-a22f-f96068be6e33"
-					(reference "R28")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -3403,7 +3404,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9f93c4e2-495e-4201-8768-2d0904739e61")
-		(property "Reference" "C27"
+		(property "Reference" "C1"
 			(at 163.9388 64.5194 0)
 			(effects
 				(font
@@ -3484,7 +3485,7 @@
 		(instances
 			(project "seven segment"
 				(path "/f35e8fbd-20e2-4e8b-a22f-f96068be6e33"
-					(reference "C27")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -3662,7 +3663,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d76543d2-0b96-409c-98eb-6bcc4dd96a7b")
-		(property "Reference" "R27"
+		(property "Reference" "R1"
 			(at 153.0759 48.7648 90)
 			(effects
 				(font
@@ -3752,7 +3753,7 @@
 		(instances
 			(project "seven segment"
 				(path "/f35e8fbd-20e2-4e8b-a22f-f96068be6e33"
-					(reference "R27")
+					(reference "R1")
 					(unit 1)
 				)
 			)
