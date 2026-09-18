@@ -1,0 +1,229 @@
+(footprint "Spade Conn4.8mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(tags "197084013 ")
+	(property "Reference" "REF**"
+		(at 2.54 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "9b734794-b7d6-4124-8180-5fa4cd72d835")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CONN_SD-19708-400_32_MOL"
+		(at 2.54 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "45457b6e-dc1a-4477-b0e7-97c0a4a777e6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3c946c5e-0f94-4dd2-9a2d-04656c91cbc2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7b40fcb3-367b-4724-86b1-18eed5fd9312")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 1.335026 0.5334)
+		(end 3.744974 0.5334)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d8370099-e352-400c-bf9e-3dfecb3eaf1c")
+	)
+	(fp_line
+		(start 3.744974 -0.5334)
+		(end 1.335026 -0.5334)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b83c3ec5-7293-418a-9e61-8c450fed49e7")
+	)
+	(fp_circle
+		(center -3.2639 0)
+		(end -2.8829 0)
+		(stroke
+			(width 0.508)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "28918471-ffbd-4582-96d6-5b440dafbac2")
+	)
+	(fp_circle
+		(center -3.2639 0)
+		(end -2.8829 0)
+		(stroke
+			(width 0.508)
+			(type solid)
+		)
+		(fill no)
+		(layer "B.SilkS")
+		(uuid "da930c0d-f9d0-4caf-9a38-f20e1832c1f7")
+	)
+	(fp_line
+		(start -1.3589 -1.3589)
+		(end -1.3589 1.3589)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2c726e09-1d6d-4614-afb1-4fdfb5bbe31a")
+	)
+	(fp_line
+		(start -1.3589 1.3589)
+		(end 6.4389 1.3589)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ebe5aa22-c5ed-4184-9683-9cc7e6504036")
+	)
+	(fp_line
+		(start 6.4389 -1.3589)
+		(end -1.3589 -1.3589)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a263287f-d6a6-4ec3-9e4a-22863bc5d3bf")
+	)
+	(fp_line
+		(start 6.4389 1.3589)
+		(end 6.4389 -1.3589)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ac6e9d0f-10f0-47d0-ad85-80a725b8ab7d")
+	)
+	(fp_line
+		(start -0.6096 -0.4064)
+		(end -0.6096 0.4064)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a66b5639-d00a-4ebc-8bb7-559a3a053e84")
+	)
+	(fp_line
+		(start -0.6096 0.4064)
+		(end 5.6896 0.4064)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "515ecd97-156e-4c71-b518-6ebe4ba67573")
+	)
+	(fp_line
+		(start 5.6896 -0.4064)
+		(end -0.6096 -0.4064)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0cb9b8e6-c989-4d5a-8cdf-955deb617ae8")
+	)
+	(fp_line
+		(start 5.6896 0.4064)
+		(end 5.6896 -0.4064)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bfecf512-8f32-41d1-819b-099961117f9f")
+	)
+	(fp_circle
+		(center 0 -2.1209)
+		(end 0.381 -2.1209)
+		(stroke
+			(width 0.508)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "8f34d5fb-3ee9-4419-8b7e-2fa54e2dd98f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.54 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "239207e1-a91c-4d4e-927b-711b43bcfe08")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1_1,1_2" thru_hole circle
+		(at 0 0)
+		(size 2.2098 2.2098)
+		(drill 1.7018)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e71c968c-659c-429c-8b40-b547601c7ec9")
+	)
+	(pad "1_1,1_2" thru_hole circle
+		(at 5.08 0)
+		(size 2.2098 2.2098)
+		(drill 1.7018)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8b9504d4-7c3b-40cc-8e9b-4802b8891960")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/EASYEDA_MODELS/197084013.stp"
+		(offset
+			(xyz 2.5 0 2.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

@@ -32,7 +32,6 @@
       "vias",
       "footprint_text",
       "footprint_anchors",
-      "ratsnest",
       "grid",
       "footprints_front",
       "footprints_back",
@@ -50,7 +49,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "ffffffff_ffffffff_ff755575_ff5775f7",
+    "visible_layers": "ffffffff_ffffffff_ff755577_ffd775f7",
     "zone_display_mode": 0
   },
   "git": {
@@ -59,7 +58,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "Vendo_main_board.kicad_prl",
+    "filename": "Vendo_board_jigg.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
