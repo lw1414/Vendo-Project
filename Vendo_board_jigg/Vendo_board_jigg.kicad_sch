@@ -12410,7 +12410,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 68.4296 33.8878 0)
 			(effects
 				(font
@@ -12592,7 +12592,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "3dcc85b0-e1e9-48e0-8cf4-d84d679e4c07")
-		(property "Reference" "R1"
+		(property "Reference" "R10"
 			(at 69.4091 68.7184 0)
 			(effects
 				(font
@@ -12655,7 +12655,7 @@
 		(instances
 			(project "Vendo_board_jigg"
 				(path "/ce68e045-3b24-4b1f-b4c3-20bce3f1de80"
-					(reference "R1")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -16387,7 +16387,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "83c75528-4892-4f38-94c8-296cae937cc5")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR0102"
 			(at 96.8271 28.871 0)
 			(effects
 				(font
@@ -16437,7 +16437,7 @@
 		(instances
 			(project "Vendo_board_jigg"
 				(path "/ce68e045-3b24-4b1f-b4c3-20bce3f1de80"
-					(reference "#PWR09")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -16751,7 +16751,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "TYPE C\nTYPE C"
 			(at 40.8365 33.3758 0)
 			(effects
 				(font
@@ -16759,7 +16759,7 @@
 				)
 			)
 		)
-		(property "Footprint" "tanimoji:USB-C-SMD_TYPE-C16PIN"
+		(property "Footprint" "InnovKits:USB-C-SMD_TYPE-C16PIN"
 			(at 40.8365 57.1992 0)
 			(effects
 				(font
@@ -18550,8 +18550,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a35082bc-e208-47af-a6ec-958228b20327")
-		(property "Reference" "C4"
-			(at 109.2731 38.015 0)
+		(property "Reference" "C10"
+			(at 110.2503 38.1768 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18631,7 +18631,7 @@
 		(instances
 			(project "Vendo_board_jigg"
 				(path "/ce68e045-3b24-4b1f-b4c3-20bce3f1de80"
-					(reference "C4")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -20967,7 +20967,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c63f1f55-8ef7-4349-8fff-72b3842a66fd")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR0101"
 			(at 68.4296 33.8878 0)
 			(effects
 				(font
@@ -21018,7 +21018,7 @@
 		(instances
 			(project "Vendo_board_jigg"
 				(path "/ce68e045-3b24-4b1f-b4c3-20bce3f1de80"
-					(reference "#PWR04")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
